@@ -1,6 +1,6 @@
 /* TEAM */
-Author:
-Site:
+Author: Imanol Herrero
+Site: https://github.com/imanolgh/imanolgh
 
 /* SITE */
 Standards: HTML5, CSS3
