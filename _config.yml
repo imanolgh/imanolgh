@@ -1,0 +1,10 @@
+title:
+description:
+
+# Posts get URLs like /ideas/post-slug.html
+permalink: /ideas/:slug.html
+
+# Don't include these in the build output
+exclude:
+  - README.md
+  - .gitignore
