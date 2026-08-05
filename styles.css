@@ -302,6 +302,11 @@ h2 {
 .experience-item .desc {
     color: var(--color-text-muted);
     margin-top: 4px;
+    padding-left: 20px;
+}
+
+.experience-item .desc li {
+    margin-bottom: 6px;
 }
 
 /* -- Projects -- */
@@ -330,6 +335,10 @@ h2 {
 .skills-list {
     color: var(--color-text-muted);
     line-height: 1.9;
+}
+
+.skills-list p {
+    margin-bottom: 8px;
 }
 
 /* -- Education -- */

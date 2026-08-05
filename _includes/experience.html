@@ -1,1 +1,53 @@
 <h2>Experience</h2>
+
+<div class="experience-item">
+    <div class="role">Full Stack Software Engineer</div>
+    <div class="company"><a href="https://www.omnicommunitycu.org/">OMNI Community Credit Union</a> &middot; Remote</div>
+    <div class="date">February 2023 - Present</div>
+    <ul class="desc">
+        <li>Built OMNI's Skip-A-Pay product end-to-end, a public-facing form that automates for the accounting department and streamlines for members the process of having their next loan payment skipped. Developed the complete authentication flow (Digital Banking integration and manual member lookup via Symitar, our core banking software, both using session management), loan/share eligibility validation logic, and the full Vue.js/Laravel UI, optimizing for both web and mobile resolutions. Implemented security redirects to different pages to prevent unauthorized access. Engaged in multiple testing cycles with QA and accounting teams.</li>
+        <li>Built internal and user-facing features for LOS Online, a public-facing form that streamlines the loan application process for members and internal employees. Developed Vue.js form elements, Laravel request validation classes to ensure accurate and clean data, and Laravel API controllers and jobs to store the data in a MySQL table and process it as loan applications in Symitar, integrating into our existing PHP legacy LOS system. Engaged in multiple testing cycles with QA, lending, and underwriting teams.</li>
+        <li>Re-wrote our legacy PHP leads and follow ups CRM system into a Laravel service to automate their creation for LOS Online.</li>
+        <li>Re-architected the legacy PHP loan projection engine, a 927-line monolithic script handling 18 phases of loan calculation, SOAP SymX integrations, and debt ratio aggregation, into a modular Laravel API route, services, and asynchronous task as a Laravel job, supporting projection functionality for both LOS and RouteOne, a third party automotive lending platform enabling the credit union to process dealer-submitted auto loan applications.</li>
+        <li>Wrote a Laravel API route that collects all of the loan application summary data during the projection step of LOS and stores it in a MySQL table for the Business Intelligence team to view and use, saving them the time of manually gathering the data themselves.</li>
+        <li>Re-wrote a legacy form into two forms, one internal and one public-facing, for members to submit travel notifications. Both forms call the same API route, use a controller and service to store to legacy and new MySQL tables, and send a confirmation email back to the end-user. Integrated with Velera's third party API to automate travel submissions for the cards department.</li>
+        <li>Integrated the U.S. Treasury Check Verification Service API into a Laravel API route and Vue.js form to confirm the validity of a treasury check submission, eliminating treasury check fraud for the credit union. Designed a log table to view submission history.</li>
+        <li>Wrote Laravel model classes using OOP to perform CRUD operations on collateral assets for loan applications within Symitar, and to integrate with our legacy PHP LOS webapp using comprehensive feature and unit testing within a Docker test environment.</li>
+        <li>Wrote an offloaded task as a Laravel job to send two-factor authentication SMS messages for login to Digital Banking.</li>
+        <li>Wrote a Laravel API route that automatically overwrites the primary user with the joint user on an account if the primary user becomes deceased, automating the error-prone task of copying and overwriting the primary's information with the joint's.</li>
+        <li>Contributed to the creation of a company MediaWiki web app, notably by hooking into MediaWiki's API to create a user-friendly Outage Tracker page to add and track service disruptions that occur throughout the credit union.</li>
+        <li>Lead the development of our website landing pages, such as our scheduling appointments and careers pages, and updating all other webpages as needed by coordinating with marketing, underwriting, and compliance teams.</li>
+        <li>Communicated technical concepts to non-technical stakeholders across teams to translate business needs into product decisions.</li>
+    </ul>
+</div>
+
+<div class="experience-item">
+    <div class="role">Freelance Web Developer</div>
+    <div class="company">L.A. Monroe Hair Salon &middot; Remote</div>
+    <div class="date">April 2026 - Present</div>
+    <ul class="desc">
+        <li>Leveraging Claude Code, the Astro web framework, Tailwind CSS, and React.js components to rapidly develop a content-driven marketing/brochure website for a hair salon. View the <a href="https://lamonroehairstudio.pages.dev/">development version</a> of the site (still in progress).</li>
+    </ul>
+</div>
+
+<div class="experience-item">
+    <div class="role">Software Engineering Intern</div>
+    <div class="company"><a href="https://www.nsin.mil/x-force/">Department of Defense (DoD) - X-Force Fellowship</a> &middot; Remote</div>
+    <div class="date">June 2023 - August 2023</div>
+    <ul class="desc">
+        <li>Co-developed a health and wellness web-app for the 173rd Fighter Wing Air Base using Java Spring Boot, React.js, and MySQL.</li>
+        <li>Built a health/wellness recommendation algorithm based on surveys assessing airmen/women's current health and wellness habits.</li>
+        <li>Created various community pages to allow airmen/women to friend other users, post, and create groups and events.</li>
+        <li>Wrote a questionnaire based on the Big 5 personality model to measure personality and influence the recommendation algorithm.</li>
+    </ul>
+</div>
+
+<div class="experience-item">
+    <div class="role">Full Stack Developer</div>
+    <div class="company"><a href="https://evercoretechnologypartners.com/">Evercore Technology Partners</a> &middot; Remote</div>
+    <div class="date">April 2022 - February 2023</div>
+    <ul class="desc">
+        <li>Added a Stripe API payment gateway for a client's Laravel, React.js, MySQL <a href="https://www.fbaflexprep.com/home">web app</a> to process transactions and manage cards.</li>
+        <li>Wrote over 100 feature tests for approximately half of all web routes in the application, aiding in detecting and fixing bugs quickly.</li>
+    </ul>
+</div>
