@@ -225,6 +225,8 @@ html[data-theme-mode="dark"] .theme-icon-system {
 .hero h1.name-code {
     font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
     letter-spacing: -1px;
+    font-weight: bold;
+    font-style: italic;
 }
 
 .hero h1.name-code::after {
